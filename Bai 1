@@ -1,0 +1,76 @@
+Bai 1
+Chrome, firefox, edge => trình duyệt => client(máy khách)
++ gui request (yeu cau) den may chu
++ may chu xu ly (php, nodejs, java, .net)
++ may chu tra ve HTML => trinh duyet
++ trinh duyet doc code HTML => hien thi trang web 
+
+HTML
+- ngon ngu danh dau sieu van ban
+- tat ca cac trang web deu duoc tao bang html
++ index.html => file goc => mac dinh
++ co ban thoi 
++ khong can nho het
+
+Cau truc cua html:
++ Doc type: 
+	+ Bao cho trinh duyet biet HTML phien ban may
++ The
++ white space: khoang trang, tab, xuong dong
+	+ trong html: white space duoc bo qua
++ Cau truc co ban cua 1 trang html
+	+ head: chứa các thông tin phu cho trình duyệt
+		+ title: tieu de
+		+ style sheet
+		+ scrip
+		+ meta
+	+ body: phần thân của trang web
+		+ viết các thẻ vào để hiện thị trang web
+
++ Các thẻ cơ bản của HTML:
+	+ h (heading): h1 -> h6
+	+ p: đoạn văn (paragraph), xuống dòng
+	+ a: liên kết, tạo link có thể click được
+		bên trong có thuộc tính 'href'
+
+	+ div: 
+		+ là 1 vùng trên trang web
+		+ có thể chứa bất kì (ví dụ có thể chưa thẻ p)
+	+ ul (un-order list): k được sắp xếp
+	+ ol (order list): được sắp xếp
+		+ li (list)
+	+ html5:
+		+ section: giống thẻ div => ý nghĩa 1 vùng tính năng riêng biệt
+		+ header: phần đầu trang web 
+		+ footer: phần dưới cùng trang web
+		+ sidebar
+		+ article: 1 bài viết
+	+ form: 
+		+ vùng nhập liệu
+		+ làm nhiệm vụ gửi dữ liệu => submit
+	+ form element:
+		+ input (type) 
+			+ text: 
+			+ button: 
+			+ submit: khi nhấn nút này => gửi form đi
+			+ checkbox
+			+ radio
+			+ password
+			+ file
+		+ select
+			+ option
+		+ button
+		+ fieldset
+		+ legend
+		+ label: chữ bổ sung
+	+ span: bao bọc 1 đoạn text, không ảnh hưởng đến ý nghĩa của text
+	+ img: hình ảnh. trang web k thể chứa hình ảnh, hiển thị hình ảnh riêng biệt
+
+	+ table: bảng dữ liệu
+		+ tr: dòng(hàng) (table row)
+		+ th: dòng header (table head)
+		+ td: cột
+		+ colspan: gộp cột
+		+ rowspan: gộp hàng
+
+

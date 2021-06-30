@@ -1,0 +1,77 @@
+Block và Inline
+
+- Block element: là thành phần rộng nằm riêng 1 hàng, rộng 100%
+	+ được dùng để chứa các thành phần inline
+	+ có thể đặt chiều rộng cho nó
+	+ không thể nằm trong inline element
+	+ h1-h6, div, p, ul, ol, section, sidebar, footer, header
+- Inline: là thành phần chỉ rộng theo kích thước của nó
+	+ nằm trong thành phần block
+	+ không thể đặt chiều rộng cho nó
+	+ input, button, label, span, a,...
+- inline-block: 
+	+ img
+	+ nằm trên cùng 1 hàng giống như inline
+	+ có thể đặt chiều rộng và chiều cao cho nó
+
+
+- Box model:
+	+ Tất cả các element trên trang web đều có chung mô hình: hình hộp
+	+ Phần nội dung 
+	+ Phần viền: border
+		+ border-width
+	+ Padding: là khoảng cách bên trong - từ nội dung đến đường viền
+		+ padding-top
+		+ padding-left
+		+ padding-right
+		+ padding-bottom
+	+ Margin: là khoảng cách bên ngoài - từ element này đến các element xung quanh
+
+	+ Khoảng không gian chiếm chỗ của 1 element:
+		Nội dung + padding + border + margin
+
+
+
+6 thuộc tính css quan trọng nhất:
+- width, height => nội dung
+
+- padding: 
+	+ 1 giá trị: trên, dưới, trái, phải cùng 1 giá trị
+	+ 2 giá trị: trên dưới - 2 bên
+	+ 4 giá trị: trên - phải - dưới - trái
+	+ viết riêng: padding-top: ..., padding-right: ...
+
+- border: [độ dày] [kiểu] [màu]
+	+ viết riêng: 
+		border-width, border-style, border-color
+
+- margin: thứ tự khoảng cách giống padding
+
+- box-sizing: cách mà trình duyệt tính toán kích thước của element: cách tính width, height
+	+ content-box: width, height => của nội dung
+	+ border-box: width, height = nội dung + padding + border
+	+ thường là box-sizing: border-box
+
+- display:
+	+ block
+	+ inline
+	+ inline-block
+
+=> Quyết định kích thước của element
+box-shadow:
+border-radius:
+
+
+Reset css:
+	- Mỗi trình duyệt có các giá trị mặc định khác nhau
+
+- Inline element
+	+ margin: 2 bên
+
+
+
+Các thuộc tính khác:
+- color: từ tiếng anh
+	+ rgb: red-green-blue
+	+ rgba: red-green-blue-alpha
+- background-color:

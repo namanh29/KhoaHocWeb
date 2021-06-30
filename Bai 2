@@ -1,0 +1,80 @@
+Bai 2
+
+Các thuộc tính chung
+- id: #
+- class: .
+
+- thẻ a:
+	+ href: đường dẫn mà liên kết trỏ đến
+		+ đường dẫn tuyệt đối
+		+ đường dẫn tương đối
+	+ target: blank : tạo ra trang mới
+
+- thẻ form 
+	+ method: phương thức truyền dữ liệu đi
+		+ get
+		+ post
+	+ action: địa chỉ gửi đi
+
+- input
+	+ name: tên của dữ liệu gửi đi
+	+ value: giá trị cho trước (có sẵn)
+	+ placeholder
+- select
+
+	+ name
+
+- label
+	+ for
+
+- img
+	+ src: đường dẫn của ảnh
+	+ width, height
+	+ title: miêu tả của ảnh => google k cần phải phân tích quá nhiều => vẫn hiểu được nội dung ảnh 
+	+ alt: khi ảnh không load được, hiển thị text
+
+Các thẻ html chia thành 2 loại:
+- thẻ hiển thị nội dung: không thể chứa các thẻ định dạng
+	+ h1 - h6: hiển thị ra heading
+	+ p: hiển thị đoạn văn
+	+ table
+	+ img: hình ảnh
+	+ span
+	+ input
+	+ button
+	+ a: link
+- thẻ định dạng, giao diện: có thể chứa các thẻ nội dung
+	+ div
+	+ header
+	+ footer
+	+ section
+	+ article
+	+ ul
+
+
+CSS
+- 3 kiểu nhúng css vào html:
+	+ inline css
+	+ css in html
+	+ file css riêng
+
++ selector:
+	+ chọn thẻ html
+	+ chọn bằng tên thẻ: tất cả các thẻ có tên đó đều chịu ảnh hưởng
+	+ chọn bằng id: chỉ sử dụng cho 1 thẻ (dấu #)
+	+ chọn bằng class: sử dụng cho nhiều thẻ, mỗi thẻ có thể có nhiều class (dấu .)
+	+ chọn nhiều class: viết liền các class
+	+ chọn thành phần con: dấu cách
+	+ chọn thành phần con trực tiếp: dấu >
+
+	+ chọn thành phần theo thứ tự
+		- first-child: thành phần đầu tiên
+		- last-child: cuối cùng
+		- nth-child(số): theo số thứ tự
+		- odd và even
+		- số n: tăng từ 0 đến vô cùng (ví dụ 3n, 3n+1)
+		- :not()
+
+
+- client: html, javascript
+  server: java, php

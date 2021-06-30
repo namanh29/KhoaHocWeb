@@ -1,0 +1,15 @@
+#dshs li:first-child {
+	color: red;
+}
+#dshs li:last-child {
+	color: blue;
+}
+#dshs li:nth-child(even) {
+	color: yellow;
+}
+#dshs li:nth-child(3n) {
+	color: green;
+}
+ul#dshs li:not(.dgqg) {
+	color: pink;
+}

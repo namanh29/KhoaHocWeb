@@ -1,0 +1,34 @@
+Cặp đôi huyền thoại:
+- relative: vị trí tuyệt đối, thành phần cha
+- absolute: thành phần con, vị trí tương đối so với thành phần cha
+
+Tất cả các thuộc tính css:
+inherit => giống thành phần cha
+
+Chia giao dien:
++ flex: (flexible: linh hoạt)
++ Đặt thuộc tính display của thành phần cha là flex
++ flex-grow: tỉ lệ chia khoảng trong con thừa trên thành phâng cha
++ flex-shrink: tỉ lệ chia khoảng còn thiếu trên thành phần cha
++ flex-direction: (thuộc tính cha)
+    - row: từ trái qua phải
+    - column: từ trên xuống dưới
++ flex-basis
+    - là kích thước của element theo trục main 
+    - là width nếu direction là row
+    - là height nếu direction là column
+
++ justify-content: căn các thành phần con theo trục chính
+    - center: giữa
+    - space-between: khoảng trống ở giữa
+    - space-around: khoảng trống xung quanh
+    - flex-start: bắt đầu (mặc định)
+    - flex-end: bắt đầu từ cuối
+
++ align-item: căn các thành phần con theo trục cross
+    - flex-start: bắt đầu 
+    - flex-end
+
++ flex-wrap:
+
+Ứng dụng của flex:

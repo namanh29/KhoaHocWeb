@@ -1,0 +1,16 @@
+State 
+Trạng thái của 1 element
+- Bình thường 
+- Focus: element được chọn => là element hiện tại 
+- hover: di chuột vào element
+- active: 
+
+selector:hover {
+    
+} 
+
+Su dung dau ":"
+VD: 
+a:hover {
+
+}

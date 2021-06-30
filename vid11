@@ -1,0 +1,28 @@
+Font chữ:
+- Font: tập hợp các ảnh của các chữ cái => file Font
+- Font có sẵn trên máy:
+    + Tốc độ nhanh
+    + Chưa chắc máy người dùng có font đó
+- Web font:
+    + Font được tải về trên mạng 
+    + Hiển thị luôn được
+    + FOnt chữ theo ý mình 
+    + Tốc độ chậm
+
+@font-face: định nghĩa 1 font
+VD: 
+@font-face {
+    font-family: [tên font];
+    src: url();
+}
+
+Font sans-serif => họ của 1 loạt font => mặc định => máy nào cũng có
+
+font-family: [danh sách các font];
+font-weight: [bold/normal/] => 1 con số 0 - 700
+
+icon-font:
++ dùng font để làm icon
++ Ưu điểm:
+    - tiết kiệm dung lượng => Icon theo
+    - đổi màu

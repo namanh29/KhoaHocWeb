@@ -1,0 +1,33 @@
+h1 {
+	color: red;
+}
+#std_name {
+	color: green;
+}
+.class {
+	font-size: 30px;
+}
+.ab {
+	color: blue;
+}
+#dshs li {
+	font-size: 20px;
+}
+#dshs > li > span {
+	font-size: 25px;
+}
+.hsg {
+	color: red;
+}
+.hsg.dgqg {
+	color: green;
+}
+#dshs li:first-child {
+	color: red;
+}
+#dshs li:last-child {
+	color: blue;
+}
+#dshs li:nth-child(2) {
+	color: yellow;
+}

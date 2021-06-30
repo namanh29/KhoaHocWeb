@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.dropdown ul {
+    display: none;
+}
+.dropdown button {
+    background-color: #727B83;
+    color: white;
+    border: none;
+    line-height: 40px;
+    padding: 0px 25px;
+    border-radius: 5px;
+}
+.dropdown:hover ul {
+    display: block;
+}

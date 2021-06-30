@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#wrapper{
+	border: 1px solid blue;
+	margin: 40px;
+	display: flex;
+	height: 200px;
+	justify-content: space-between;
+	align-items: center;
+}
+#one, #two, #three {
+	border: 1px solid black;
+	
+	flex-basis: 100px;
+}
+#two {
+	height: 100px;
+}
+
+#topbar {
+	display: flex;
+	justify-content: space-between;
+}

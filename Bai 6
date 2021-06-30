@@ -1,0 +1,34 @@
+Text and background
+Dòng chữ:
+- là các hình chữ nhật xếp sát nhau
+- text : luôn nằm giữa dòng chữ theo chiều dọc
+
+Các thuộc tính của text:
++ line-height: độ cao dòng chữ
++ font-size: kích thước chữ
++ text-align: căn chữ
+    - ảnh hưởng tất cả các inline element và inline-block element
++ color: màu chữ
++ text-indent : căn lề trái
++ text-decoration:
+    - underline: gạch chân
+    - line-through
++ text-transform: uppercase (viết hoa), capitalize(viết hoa chữ đầu tiên của từ)
+
+
+Background
++ background-color
++ background-clip: định nghĩa nền là vùng nào
++ background-image: url()
+    - 1 giá trị
+    - nếu có background-image thì nên đặt background-color trước
++ background-repeat:
+    - no-repeat
+    - repeat
+    - repeat-x
+    - repeat-y 
++ background-size: cover, contain,...
++ background-position:
+
++ shorthand (viết tắt):
+    background: [màu] [ảnh] [lặp] [position] 

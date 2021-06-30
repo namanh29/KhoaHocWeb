@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding :0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: fontello;
+    src: url(fonts/fontello.ttf);
+}
+h1 {
+    font-family: Arial, Tahoma, sans-serif;
+}
+h3 {
+    font-family: fontello;
+    font-size: 60px;
+    color: red;
+}
+header {
+    background-color: #155592;
+    padding: 30px 20px;
+}
+header form {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 40px;
+    border-radius: 20px;
+    line-height: 40px;
+    padding: 0px 25px;
+}
+header form input {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+header form input:focus {
+    border: none;
+    outline: none;
+}
+header form button {
+    border: none;
+    background-color: transparent;
+    
+}
+header form button:hover {
+    cursor: pointer;
+    color: #F1F3F5;
+}

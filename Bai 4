@@ -1,0 +1,33 @@
+Những thuộc tính ảnh hưởng đến vị trí
+
+- float và clear
+	+ float: 
+		+ đẩy 1 element sang trái hoặc sang phải
+		+ tất cả các element trên web: luôn có xu hướng trồi lên phía trên, cao nhất có thể
+		+ khi đặt float: chiều rộng (width) thành auto
+
+	+ clear: bỏ float ở phía sau đi
+
+Layout cơ bản
+- 2 cột:
+	+ float: left
+	+ float: right
+- 3 hoặc nhiều cột
+	+ float left hết
+
+- khi thành phần con mà float:
+	+ thành phần cha: cao 0px
+
+
++ pseudo element:
+	+ là 1 element giống như html => được css tạo ra
+
++ position: vị trí
+	+ fixed: vị trí chính xác so với body
+		+ top
+		+ left
+		+ right
+		+ bottom
+	+ relative: vị trí tương đối
+	+ absolute: vị trí tuyệt đối 
+	+ sticky: 

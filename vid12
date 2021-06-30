@@ -1,0 +1,45 @@
+Hinh anh tren trang Web
+- Cac dang hinh anh
+    + jpg
+        + anh chup, nhieu chi tiet
+        + cat jpg
+        + kich thuoc nho nhat => anh chup 
+        + khong ho tro trong suot
+    + png
+        + ho tro trong suot
+        + anh hoat hinh => khong co nhieu chi tiet
+        + anh ve
+        + icon
+    + bmp
+        + khong ho tro trong suot
+    + svg
+        + Vector: anh code
+        + cuc ky nhe 
+        + ho tro trong suot
+        + khong su dung cho anh chup
+        + phóng to: k bị vỡ ảnh 
+
+    + gif 
+        + hỗ trợ trong suốt: kênh alpha (trong suốt): bị vỡ hạt
+        + 1 pixel: 
+            + trong suốt
+            + k trong suốt
+        + tiết kiệm dung lượng hơn
+        + animation
+
+    + webp
+        + ảnh chụp
+        + dung lượng nhẹ
+        + chất lượng cao
+    + data url
+
+Style css cho hình ảnh 
++ img: inline-block
++ img ở phần nội dung, ng dùng soạn thảo:
+    + max-width: 100%
++ có lợi nhất cho seo: 
+    + nên đặt width và height => backend => đọc thông tin của ảnh => xuất ra html tương ứng
+
++ border: [độ dày] [kiểu] [màu]
+Vd: boder: 1px solid black 
+

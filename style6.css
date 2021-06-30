@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p {
+    margin: 20px;
+    line-height: 50px;
+    border: 1px solid black;
+}
+#cha {
+    border: 1px solid black;
+    line-height: 50px;
+    text-align: left;
+    width: 100%;
+    text-indent: 50px;
+}
+#con {
+    display: inline;
+    width: 60px;
+    background-color: red;
+    height: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+#menu {
+    height: 50px;
+    background: pink;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+#name {
+    width: 300px;
+    height: 300px;
+    border: 10px solid rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-image: url(a.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
